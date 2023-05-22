@@ -33,7 +33,7 @@ TextureImporter:
   maxTextureSize: 2048
   textureSettings:
     serializedVersion: 2
-    filterMode: 1
+    filterMode: 0
     aniso: 1
     mipBias: 0
     wrapU: 1
@@ -70,7 +70,7 @@ TextureImporter:
     maxTextureSize: 2048
     resizeAlgorithm: 0
     textureFormat: -1
-    textureCompression: 1
+    textureCompression: 0
     compressionQuality: 50
     crunchedCompression: 0
     allowsAlphaSplitting: 0
@@ -150,7 +150,7 @@ TextureImporter:
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Obsticle
+      name: Obstacle
       rect:
         serializedVersion: 2
         x: 808
@@ -507,7 +507,7 @@ TextureImporter:
       Ground: 296254212
       Metal_Medal: -2079396482
       New: -1407295911
-      Obsticle: -345159536
+      Obstacle: -345159536
       Restart: 1178197268
       ScorePanel: 304237996
       Silver_Medal: 455803587
