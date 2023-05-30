@@ -20,12 +20,15 @@ public class ObstacleSpawner : MonoBehaviour
 
     void Update()
     {
-        timer += Time.deltaTime;
+        if (GameManager.gameOver == false)
+        {
+            timer += Time.deltaTime;
         if (timer >= maxTime)
         {
             randomY = Random.Range(minY,maxY);
             InstantiateObstacle();
             timer = 0;
+        }
         }
     }
 
