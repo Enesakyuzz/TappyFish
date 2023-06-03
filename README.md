@@ -1,2 +1,2 @@
 # TappyFish
-Panteon Akademi Projesi
+Panteon Akademi TappyFish Project
